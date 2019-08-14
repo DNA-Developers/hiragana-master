@@ -1,0 +1,31 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}.container-fluid {
+  background: #7044ff;
+  height: 36vh;
+}
+.container{
+  border-bottom: solid #29aac0;
+  height: 13rem;
+}
+h1{
+  padding-top: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  margin-top: 5rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #29aac0;
+}

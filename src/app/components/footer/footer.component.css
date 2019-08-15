@@ -29,9 +29,9 @@ a {
 a:hover {
   color: #29aac0;
 }
-@media (max-width: 420px){
+@media  (max-width: 420px){
   .container-fluid {
-    height: 50vh;
+    height: 55vh;
     display: grid;
     grid-template-columns:1fr;
   }

@@ -28,3 +28,21 @@ p {
   padding-top: 3%;
   text-align: left !important;
 }
+@media(max-width: 420px) {
+  .container-fluid {
+    height: 70vh;
+  }
+  h1 {
+    font-size: 1.8rem;
+    font-family: bold;
+    width: 95%;
+  }
+  .container {
+    padding-top: 18%;
+    width: 90%;
+  }
+  p {
+    width:100%;
+  }
+}
+

@@ -9,10 +9,25 @@ nav .navbar-nav{
   justify-content: center;
   align-items: center;
 }
+#container {
+  height: 8vh;
+ position: relative;
+ padding-top: 2%;
+  background:#7044ff;
+}
+#dropdown {
+  background: #29aac0;
+  z-index: 2;
+}
 a {
   text-decoration: none;
   color: #ffffff;
 }
 a:hover {
   color: #29aac0
+}
+@media (max-width:420px){
+  #container {
+    padding-top: 4%;
+  }
 }

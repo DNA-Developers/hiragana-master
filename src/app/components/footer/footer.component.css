@@ -29,3 +29,21 @@ a {
 a:hover {
   color: #29aac0;
 }
+@media (max-width: 420px){
+  .container-fluid {
+    height: 50vh;
+    display: grid;
+    grid-template-columns:1fr;
+  }
+
+  img {
+    height: 60%;
+    width: 40%;
+  }
+  h1 {
+    font-size: 1.5rem
+  }
+  h6 {
+    padding-top: 5%;
+  }
+}

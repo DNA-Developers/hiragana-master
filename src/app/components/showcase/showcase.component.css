@@ -24,4 +24,22 @@
 .buttons {
   padding-top: 1%;
 }
-
+@media(max-width: 420px) {
+  .main {
+    height: 100vh;
+  }
+  .showcase {
+    padding: 45% 5%;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  img {
+    height: 60%;
+    width: 40%;
+  }
+  .buttons {
+    padding-top: 7%;
+  }
+}
